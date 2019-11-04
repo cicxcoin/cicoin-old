@@ -139,3 +139,4 @@ dist/
 *.background.tiff
 
 .idea
+cmake-build-debug
