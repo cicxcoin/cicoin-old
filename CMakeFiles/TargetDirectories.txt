@@ -1,0 +1,5 @@
+/Users/grindstone/C++Project/cicoin/CMakeFiles/rebuild_cache.dir
+/Users/grindstone/C++Project/cicoin/CMakeFiles/edit_cache.dir
+/Users/grindstone/C++Project/cicoin/CMakeFiles/debug-cicoin-qt.dir
+/Users/grindstone/C++Project/cicoin/CMakeFiles/debug-cicoind.dir
+/Users/grindstone/C++Project/cicoin/CMakeFiles/build-cicoin.dir
