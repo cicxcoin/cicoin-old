@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2019 The Bitcoin Core developers
+# Copyright (c) 2019 The Cicoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
@@ -35,7 +35,7 @@ NON_DETERMINISTIC_TESTS=(
     "wallet_tests/wallet_disableprivkeys"                     # validation.cpp: if (GetMainSignals().CallbacksPending() > 10)
 )
 
-TEST_BITCOIN_BINARY="src/test/test_bitcoin"
+TEST_BITCOIN_BINARY="src/test/test_cicoin"
 
 print_usage() {
     echo "Usage: $0 [custom test filter (default: all but known non-deterministic tests)] [number of test runs (default: 2)]"

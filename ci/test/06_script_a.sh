@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2018 The Bitcoin Core developers
+# Copyright (c) 2018 The Cicoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,7 +35,7 @@ DOCKER_EXEC make distdir VERSION=$HOST
 END_FOLD
 
 set +o errexit
-cd "bitcoin-$HOST" || (echo "could not enter distdir bitcoin-$HOST"; exit 1)
+cd "cicoin-$HOST" || (echo "could not enter distdir cicoin-$HOST"; exit 1)
 set -o errexit
 
 BEGIN_FOLD configure

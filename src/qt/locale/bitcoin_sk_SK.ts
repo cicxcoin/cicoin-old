@@ -66,12 +66,12 @@
         <translation>Adresa prijímaťeľa</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto je vaša Bitcoin adresa pre odosielanie platieb. Vždy si overte hodnotu a adresu prijímateľa pred odoslaním vaších mincí.</translation>
+        <source>These are your Cicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto je vaša Cicoin adresa pre odosielanie platieb. Vždy si overte hodnotu a adresu prijímateľa pred odoslaním vaších mincí.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto je vaša Bitcoin adresa pre prijímanie platieb. Odporúčame Vám používať vždy novú adresu pre každú transakciu.</translation>
+        <source>These are your Cicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto je vaša Cicoin adresa pre prijímanie platieb. Odporúčame Vám používať vždy novú adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -184,8 +184,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 sa teraz zatvorí aby sa dokončil proces šifrovania. Zapamätajte si, že zašifrovanie vašej peňaženky nemôže úplne ochrániť vaše bitcoiny od ukradnutia malvérom ktorý môže infikovať Váš počítač.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your cicoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 sa teraz zatvorí aby sa dokončil proces šifrovania. Zapamätajte si, že zašifrovanie vašej peňaženky nemôže úplne ochrániť vaše cicoiny od ukradnutia malvérom ktorý môže infikovať Váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -236,7 +236,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>CicoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpísať &amp;správu...</translation>
@@ -354,8 +354,8 @@
         <translation>Proxy je &lt;b&gt;povolené&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Poslať mince do Bitcoin adresy</translation>
+        <source>Send coins to a Cicoin address</source>
+        <translation>Poslať mince do Cicoin adresy</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,8 +378,8 @@
         <translation>&amp;Overiť správu...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Cicoin</source>
+        <translation>Cicoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -406,12 +406,12 @@
         <translation>Zašifrovať súkromné kľúče patriace k vašej peňaženke</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou Bitcoin adresou pre dokázanie že ich vlastníte</translation>
+        <source>Sign messages with your Cicoin addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou Cicoin adresou pre dokázanie že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Overiť správy pre zaručenie že boli podpísané špecifickými Bitcoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Cicoin addresses</source>
+        <translation>Overiť správy pre zaručenie že boli podpísané špecifickými Cicoin adresami</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -430,8 +430,8 @@
         <translation>Panel nástrojov</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje sa QR kód a bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and cicoin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje sa QR kód a cicoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -442,16 +442,16 @@
         <translation>Ukázať zoznam použitých prijímacích adries a štítkov</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Otvoriť Bitcoin: URI alebo vyžiadanie platby</translation>
+        <source>Open a cicoin: URI or payment request</source>
+        <translation>Otvoriť Cicoin: URI alebo vyžiadanie platby</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktívne pripojenia na Bitcoin sieti</numerusform><numerusform>%n aktívne pripojenia na Bitcoin sieti</numerusform><numerusform>%n aktívne pripojenia na Bitcoin sieti</numerusform><numerusform>%n aktívne pripojenia na Bitcoin sieti</numerusform></translation>
+        <source>%n active connection(s) to Cicoin network</source>
+        <translation><numerusform>%n aktívne pripojenia na Cicoin sieti</numerusform><numerusform>%n aktívne pripojenia na Cicoin sieti</numerusform><numerusform>%n aktívne pripojenia na Cicoin sieti</numerusform><numerusform>%n aktívne pripojenia na Cicoin sieti</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -494,8 +494,8 @@
         <translation>Aktuálne</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Ukázať %1 pomocnú správu na dostanie zoznamu s možnými možnosťami v Bitcoin príkazovom riadku</translation>
+        <source>Show the %1 help message to get a list with possible Cicoin command-line options</source>
+        <translation>Ukázať %1 pomocnú správu na dostanie zoznamu s možnými možnosťami v Cicoin príkazovom riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -570,8 +570,8 @@
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a aktuálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Nastala fatálna chyba. Bitcoin už nemôže pokračovať bezpečne a vypne sa.</translation>
+        <source>A fatal error occurred. Cicoin can no longer continue safely and will quit.</source>
+        <translation>Nastala fatálna chyba. Cicoin už nemôže pokračovať bezpečne a vypne sa.</translation>
     </message>
 </context>
 <context>
@@ -760,8 +760,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Vložená adresa ''%1'' nie je platná Bitcoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Cicoin address.</source>
+        <translation>Vložená adresa ''%1'' nie je platná Cicoin adresa.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -857,8 +857,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Cicoin</source>
+        <translation>Cicoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -869,8 +869,8 @@
         <translation>V tomto adresári bude uložených približne %1 GB dát.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 stiahne a bude uchovávať kópiu Bitcoin blockchainu.</translation>
+        <source>%1 will download and store a copy of the Cicoin block chain.</source>
+        <translation>%1 stiahne a bude uchovávať kópiu Cicoin blockchainu.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -900,12 +900,12 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Bitcoin sieťou ako je popísané nižšie.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the cicoin network, as detailed below.</source>
+        <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Cicoin sieťou ako je popísané nižšie.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokusy o minutie bitcoinov ktoré sú ovplyvnené ešte nezobrazenými transakciami nebudú prijaté sieťou.</translation>
+        <source>Attempting to spend cicoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Pokusy o minutie cicoinov ktoré sú ovplyvnené ešte nezobrazenými transakciami nebudú prijaté sieťou.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1086,8 +1086,8 @@
         <translation>&amp;Míňať nepotvrdené mince</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port Bitcoin klienta na routeri. Toto funguje len vtedy, keď Váš router podporuje a má zapnuté UPnP </translation>
+        <source>Automatically open the Cicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port Cicoin klienta na routeri. Toto funguje len vtedy, keď Váš router podporuje a má zapnuté UPnP </translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1102,8 +1102,8 @@
         <translation>Povoliť prichá&amp;dzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa k Bitcoin sieti cez SOCKS5 proxy.</translation>
+        <source>Connect to the Cicoin network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa k Cicoin sieti cez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1138,8 +1138,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť sa k Bitcoin sieti cez osobitné SOCKS5 proxy pre skryté služby Toru</translation>
+        <source>Connect to the Cicoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť sa k Cicoin sieti cez osobitné SOCKS5 proxy pre skryté služby Toru</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1245,8 +1245,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Ukázaná informácia už môže byť zastaraná. Vaša peňaženka sa automaticky zosynchronizuje s Bitcoin sieťou po tom, čo bude pripojená k internetu , tento proces sa zatiaľ nedokončil.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cicoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ukázaná informácia už môže byť zastaraná. Vaša peňaženka sa automaticky zosynchronizuje s Cicoin sieťou po tom, čo bude pripojená k internetu , tento proces sa zatiaľ nedokončil.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1320,16 +1320,16 @@
         <translation>Chyba pri žiadosti o platbu</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemôžem spustiť Bitcoin: click-to-pay handler</translation>
+        <source>Cannot start cicoin: click-to-pay handler</source>
+        <translation>Nemôžem spustiť Cicoin: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Narábanie s URI</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'bitcoin://' je nesprávna URI. Namiesto toho použite 'bitcoin'.</translation>
+        <source>'cicoin://' is not a valid URI. Use 'cicoin:' instead.</source>
+        <translation>'cicoin://' je nesprávna URI. Namiesto toho použite 'cicoin'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1340,8 +1340,8 @@
         <translation>Neplatná platobná adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI nemohla byť analyzovaná. Môže to byť spôsobené neplatnou Bitcoin adresou alebo chybnými parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Cicoin address or malformed URI parameters.</source>
+        <translation>URI nemohla byť analyzovaná. Môže to byť spôsobené neplatnou Cicoin adresou alebo chybnými parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1442,8 +1442,8 @@
         <translation>Čiastka</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Vložte bitcoin adresu (napr. %1)</translation>
+        <source>Enter a Cicoin address (e.g. %1)</source>
+        <translation>Vložte cicoin adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1882,8 +1882,8 @@
         <translation>&amp;Správa:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Nepovinná správa ktorá bude pripojená k žiadosti o platbu. Správa bude zobrazená po otvorení žiadosti o platbu. Táto správa nebude odoslaná spolu s platbou na Bitcoin sieti.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cicoin network.</source>
+        <translation>Nepovinná správa ktorá bude pripojená k žiadosti o platbu. Správa bude zobrazená po otvorení žiadosti o platbu. Táto správa nebude odoslaná spolu s platbou na Cicoin sieti.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2135,7 +2135,7 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Skryť</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for cicoin transactions than the network can process.</source>
         <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia oneskorená alebo dokonca nikdy nepotvrdená.</translation>
     </message>
     <message>
@@ -2315,8 +2315,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation><numerusform>Predpoklad na začanie potvrdenia do %n bloku.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform><numerusform>Predpoklad na začanie potvrdenia do %n blokov.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Upozornenie: Nesprávna Bitcoin adresa</translation>
+        <source>Warning: Invalid Cicoin address</source>
+        <translation>Upozornenie: Nesprávna Cicoin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2358,8 +2358,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Toto je normálna platba</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin adresa do ktorej môžete poslať platbu</translation>
+        <source>The Cicoin address to send the payment to</source>
+        <translation>Cicoin adresa do ktorej môžete poslať platbu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2378,8 +2378,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Vymazať tento vstup</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Bitcoinov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less cicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Cicoinov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2406,8 +2406,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Zadajte štítok pre túto adresu aby ste ju pridali do zoznamu použitých adries.</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Správa pripojená k Bitcoin URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Bitcoin sieť.</translation>
+        <source>A message that was attached to the cicoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cicoin network.</source>
+        <translation>Správa pripojená k Cicoin URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Cicoin sieť.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2451,12 +2451,12 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Bitcoiny ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive cicoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Cicoiny ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin adresa na podpísanie správy</translation>
+        <source>The Cicoin address to sign the message with</source>
+        <translation>Cicoin adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2487,8 +2487,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Skopírovať aktuálny podpis do clipboardu systému</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Podpíšte túto správu na overenie vlastníctva tejto Bitcoin adresy</translation>
+        <source>Sign the message to prove you own this Cicoin address</source>
+        <translation>Podpíšte túto správu na overenie vlastníctva tejto Cicoin adresy</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2511,12 +2511,12 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Vložte adresu príjemcu a správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odseky  atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu Man-in-the-middle útokom. Poznámka: Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin adresa s ktorou bola táto správa podpísaná</translation>
+        <source>The Cicoin address the message was signed with</source>
+        <translation>Cicoin adresa s ktorou bola táto správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Overte správu aby ste sa uistili že bola podpísaná so špecifickou Bitcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Cicoin address</source>
+        <translation>Overte správu aby ste sa uistili že bola podpísaná so špecifickou Cicoin adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3134,7 +3134,7 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>cicoin-core</name>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
         <translation>Distribuované pod licenciou softvéru MIT, pozrite si sprevádzajúci súbor %s alebo %s</translation>
@@ -3164,8 +3164,8 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Nebolo možné spustiť HTTP server. Pozrite si debug log pre viac informácií.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Cicoin Core</source>
+        <translation>Cicoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

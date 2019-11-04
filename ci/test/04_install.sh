@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2018 The Bitcoin Core developers
+# Copyright (c) 2018 The Cicoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ mkdir -p "${BASE_SCRATCH_DIR}"
 ccache echo "Creating ccache dir if it didn't already exist"
 
 if [ ! -d ${DIR_QA_ASSETS} ]; then
-  git clone https://github.com/bitcoin-core/qa-assets ${DIR_QA_ASSETS}
+  git clone https://github.com/cicoin-core/qa-assets ${DIR_QA_ASSETS}
 fi
 export DIR_FUZZ_IN=${DIR_QA_ASSETS}/fuzz_seed_corpus/
 
