@@ -126,8 +126,8 @@ class AvoidReuseTest(CicoinTestFramework):
 
     def test_fund_send_fund_senddirty(self):
         '''
-        Test the same as test_fund_send_fund_send, except send the 10 BTC with
-        the avoid_reuse flag set to false. This means the 10 BTC send should succeed,
+        Test the same as test_fund_send_fund_send, except send the 10 CICX with
+        the avoid_reuse flag set to false. This means the 10 CICX send should succeed,
         where it fails in test_fund_send_fund_send.
         '''
 
@@ -177,11 +177,11 @@ class AvoidReuseTest(CicoinTestFramework):
     def test_fund_send_fund_send(self):
         '''
         Test the simple case where [1] generates a new address A, then
-        [0] sends 10 BTC to A.
-        [1] spends 5 BTC from A. (leaving roughly 5 BTC useable)
-        [0] sends 10 BTC to A again.
-        [1] tries to spend 10 BTC (fails; dirty).
-        [1] tries to spend 4 BTC (succeeds; change address sufficient)
+        [0] sends 10 CICX to A.
+        [1] spends 5 CICX from A. (leaving roughly 5 CICX useable)
+        [0] sends 10 CICX to A again.
+        [1] tries to spend 10 CICX (fails; dirty).
+        [1] tries to spend 4 CICX (succeeds; change address sufficient)
         '''
 
         fundaddr = self.nodes[1].getnewaddress()

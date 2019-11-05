@@ -468,7 +468,7 @@ class RawTransactionsTest(CicoinTestFramework):
             ]
         )['address']
 
-        # Send 1.2 BTC to msig addr.
+        # Send 1.2 CICX to msig addr.
         self.nodes[0].sendtoaddress(mSigObj, 1.2)
         self.sync_all()
         self.nodes[1].generate(1)

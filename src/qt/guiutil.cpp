@@ -150,7 +150,7 @@ bool parseCicoinURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!CicoinUnits::parse(CicoinUnits::BTC, i->second, &rv.amount))
+                if(!CicoinUnits::parse(CicoinUnits::CICX, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -183,7 +183,7 @@ QString formatCicoinURI(const SendCoinsRecipient &info)
 
     if (info.amount)
     {
-        ret += QString("?amount=%1").arg(CicoinUnits::format(CicoinUnits::BTC, info.amount, false, CicoinUnits::separatorNever));
+        ret += QString("?amount=%1").arg(CicoinUnits::format(CicoinUnits::CICX, info.amount, false, CicoinUnits::separatorNever));
         paramCount++;
     }
 

@@ -15,9 +15,9 @@ CicoinUnits::CicoinUnits(QObject *parent):
 QList<CicoinUnits::Unit> CicoinUnits::availableUnits()
 {
     QList<CicoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(CICX);
+    unitlist.append(mCICX);
+    unitlist.append(uCICX);
     unitlist.append(SAT);
     return unitlist;
 }
@@ -26,9 +26,9 @@ bool CicoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case CICX:
+    case mCICX:
+    case uCICX:
     case SAT:
         return true;
     default:
@@ -40,9 +40,9 @@ QString CicoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BTC");
-    case mBTC: return QString("mBTC");
-    case uBTC: return QString::fromUtf8("µBTC (bits)");
+    case CICX: return QString("CICX");
+    case mCICX: return QString("mCICX");
+    case uCICX: return QString::fromUtf8("µCICX (bits)");
     case SAT: return QString("Satoshi (sat)");
     default: return QString("???");
     }
@@ -52,7 +52,7 @@ QString CicoinUnits::shortName(int unit)
 {
     switch(unit)
     {
-    case uBTC: return QString::fromUtf8("bits");
+    case uCICX: return QString::fromUtf8("bits");
     case SAT: return QString("sat");
     default: return longName(unit);
     }
@@ -62,9 +62,9 @@ QString CicoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Cicoins");
-    case mBTC: return QString("Milli-Cicoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Cicoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case CICX: return QString("Cicoins");
+    case mCICX: return QString("Milli-Cicoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uCICX: return QString("Micro-Cicoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     case SAT: return QString("Satoshi (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
@@ -74,9 +74,9 @@ qint64 CicoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC: return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case CICX: return 100000000;
+    case mCICX: return 100000;
+    case uCICX: return 100;
     case SAT: return 1;
     default: return 100000000;
     }
@@ -86,9 +86,9 @@ int CicoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case CICX: return 8;
+    case mCICX: return 5;
+    case uCICX: return 2;
     case SAT: return 0;
     default: return 0;
     }

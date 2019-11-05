@@ -60,7 +60,7 @@ Represents the view to a single wallet.
 
 * UI elements like CicoinAmountField, which inherit from QWidget.
 * `cicoinstrings.cpp`: automatically generated
-* `cicoinunits.(h/cpp)`: BTC / mBTC / etc handling
+* `cicoinunits.(h/cpp)`: CICX / mCICX / etc handling
 * `callback.h`
 * `guiconstants.h`: UI colors, app name, etc
 * `guiutil.h`: several helper functions

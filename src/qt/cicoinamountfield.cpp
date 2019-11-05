@@ -122,7 +122,7 @@ public:
 
             const QFontMetrics fm(fontMetrics());
             int h = lineEdit()->minimumSizeHint().height();
-            int w = GUIUtil::TextWidth(fm, CicoinUnits::format(CicoinUnits::BTC, CicoinUnits::maxMoney(), false, CicoinUnits::separatorAlways));
+            int w = GUIUtil::TextWidth(fm, CicoinUnits::format(CicoinUnits::CICX, CicoinUnits::maxMoney(), false, CicoinUnits::separatorAlways));
             w += 2; // cursor blinking space
 
             QStyleOptionSpinBox opt;
@@ -148,7 +148,7 @@ public:
     }
 
 private:
-    int currentUnit{CicoinUnits::BTC};
+    int currentUnit{CicoinUnits::CICX};
     CAmount singleStep{CAmount(100000)}; // satoshis
     mutable QSize cachedMinimumSizeHint;
     bool m_allow_empty{true};
