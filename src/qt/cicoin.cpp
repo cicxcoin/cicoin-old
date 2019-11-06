@@ -231,6 +231,7 @@ void CicoinApplication::createOptionsModel(bool resetSettings)
 void CicoinApplication::createWindow(const NetworkStyle *networkStyle)
 {
     window = new CicoinGUI(m_node, platformStyle, networkStyle, nullptr);
+    window->setStyleSheet("QMainWindow {background-color: #ffffff}");
 
     pollShutdownTimer = new QTimer(window);
     connect(pollShutdownTimer, &QTimer::timeout, window, &CicoinGUI::detectShutdown);
