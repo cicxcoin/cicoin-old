@@ -740,6 +740,9 @@
               </item>
               <item>
                <widget class="QPushButton" name="buttonChooseFee">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(10, 164, 227);color: #ffffff</string>
+                </property>
                 <property name="text">
                  <string>Choose...</string>
                 </property>
@@ -799,6 +802,9 @@
           </item>
           <item>
            <widget class="QPushButton" name="buttonMinimizeFee">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(10, 164, 227);color: #ffffff</string>
+            </property>
             <property name="toolTip">
              <string>collapse fee-settings</string>
             </property>
@@ -1110,6 +1116,9 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="sendButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(10, 164, 227);</string>
+       </property>
        <property name="minimumSize">
         <size>
          <width>150</width>
@@ -1136,6 +1145,9 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
      </item>
      <item>
       <widget class="QPushButton" name="clearButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(10, 164, 227);</string>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -1159,6 +1171,9 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
      </item>
      <item>
       <widget class="QPushButton" name="addButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(10, 164, 227);</string>
+       </property>
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>

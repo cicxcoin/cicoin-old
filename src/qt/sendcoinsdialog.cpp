@@ -876,6 +876,7 @@ SendConfirmationDialog::SendConfirmationDialog(const QString& title, const QStri
     setIcon(QMessageBox::Question);
     setWindowTitle(title); // On macOS, the window title is ignored (as required by the macOS Guidelines).
     setText(text);
+    setStyleSheet("QPushButton#Yes {background-color: rgb(10, 164, 227);color: #ffffff} QPushButton#Yes:hover {background-color: #0eb5f6;color: #ffffff} QPushButton#No {background-color: rgb(10, 164, 227);color: #ffffff} QPushButton#No:hover {background-color: #0eb5f6;color: #ffffff}");
     setInformativeText(informative_text);
     setDetailedText(detailed_text);
     setStandardButtons(QMessageBox::Yes | QMessageBox::Cancel);
