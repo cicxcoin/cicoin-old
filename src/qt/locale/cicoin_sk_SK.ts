@@ -172,8 +172,8 @@
         <translation>Potvrďiť zašifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Upozornenie: Keď si zašifrujete vašu peňaženku a stratíte svoju frázu, &lt;b&gt; STRATÍTE VŠETKY VAŠE BITCOINY &lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CICOINS&lt;/b&gt;!</source>
+        <translation>Upozornenie: Keď si zašifrujete vašu peňaženku a stratíte svoju frázu, &lt;b&gt; STRATÍTE VŠETKY VAŠE CICOINY &lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
